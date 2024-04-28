@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+body {
+    /* margin: 0;
+    padding: 0; */
+    background-color: black;
+    /* text-align: center;
+    color: white; */
+}
+
+/* flex classes started */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap {
+    gap: 20px;
+}
+
+/* flex classes end */
+
+
+/* margin classes start */
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+.ml-5 {
+    margin-left: 10px;
+}
+
+.mr-5 {
+    margin-right: 10px;
+}
+
+/* margin classes end */
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* custom css */
+#logo-img {
+    width: 165px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#franchise-btn {
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+#order-btn {
+    padding: 13px 17px;
+    background-color: #ed1c24;
+    border: none;
+    border-radius: 20px;
+}
